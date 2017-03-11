@@ -18,7 +18,7 @@ public class RNDNSModule extends ReactContextBaseJavaModule {
 
     public static final String TAG = "RNDNS";
 
-    public DnsModule(ReactApplicationContext reactContext) {
+    public RNDNSModule(ReactApplicationContext reactContext) {
         super(reactContext);
     }
 
