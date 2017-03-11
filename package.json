@@ -1,0 +1,22 @@
+{
+  "name": "react-native-dns",
+  "version": "0.0.1",
+  "description": "Partial implementation Node.js dns module",
+  "main": "RNDNS.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:naxel/react-native-dns.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "android",
+    "network",
+    "dns"
+  ],
+  "author": "Alex Khaylo <alex.khaylo@gmail.com> (https://github.com/naxel)",
+  "license": "MIT"
+}
