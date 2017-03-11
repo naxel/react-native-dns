@@ -32,14 +32,16 @@ dependencies {
 }
 ```
 
-* register module (in MainActivity.java)
+* register module (in MainApplication.java)
 
 ```java
 ...
 
 import me.naxel.rndns.RNDNSPackage; // <--- IMPORT
 
-public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
+public class MainApplication extends Application implements ReactApplication {
+
+  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
 	...
 
     @Override
@@ -49,6 +51,8 @@ public class MainActivity extends Activity implements DefaultHardwareBackBtnHand
           new RNDNSPackage() // <- ADD HERE
       );
     }
+  };
+  	...
 }
 ```
 
